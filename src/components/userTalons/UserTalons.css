@@ -1,0 +1,28 @@
+.userTalons-wrapper {
+  width: 1400px;
+  margin: 0 auto;
+}
+.userTalons-space {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.userTalon-card {
+  background-color: lightgrey;
+  border: 2px solid gainsboro;
+  -webkit-box-shadow: 25px 15px 21px -3px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 25px 15px 21px -3px rgba(34, 60, 80, 0.2);
+  box-shadow: 25px 15px 21px -3px rgba(34, 60, 80, 0.2);
+  width: 600px;
+  height: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.userTalon-input {
+  margin: 0 0;
+  width: 280px;
+  height: 50px;
+  color: black;
+}

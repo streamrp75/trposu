@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+
+.talonPage {
+  background-color: gainsboro;
+}
+.banner {
+  width: 1481.5px;
+  height: 500px;
+  background-image: url("./components/assets/haus.jpg");
+  background-position: left 30% top;
+}
+.talonSection__wrapper {
+  margin: 0 auto;
+}
+.consultation {
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.talonSection__wrapper {
+  background-color: gainsboro;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+.column1 {
+  margin: 40px 0 0 24px;
+  width: 400px;
+}
+.column2 {
+  width: 600px;
+  background-color: lightgray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.column3 {
+  margin: 40px 24px 0 0;
+  width: 400px;
+}
+.headerText {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 24px;
+  color: black;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+.subtitle {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  text-align: center;
+}
+.form-control {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+.orderTalon {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.formToOrderTalon {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
+}
+.form-field {
+  width: 200px;
+  color: black;
+}
+.appointment-form {
+  width: 732px;
+  margin: 0 auto;
+  color: black;
+}
+.form-control {
+  width: 200px;
+  background-color: gainsboro;
+  color: black;
+}
+.input-style {
+  background-color: gainsboro;
+  border: none;
+  color: black;
+}
+.first-btn {
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.first-btn:hover {
+  box-shadow: 0 0 40px 40px #e74c3c inset;
+}
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-weight: 400;
+  line-height: 1;
+  padding: 0.4em 3.4em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.btn:hover,
+.btn:focus {
+  color: #fff;
+  outline: 0;
+}
+.subtitle {
+  margin-bottom: 0;
+}
+.btn-custom {
+  color: red;
+  font-family: "Amatic SC", cursive;
+  text-decoration: none;
+  font-size: 28px;
+}
+.talonFieldset {
+  width: 580px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.talonSubmit {
+  background-color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  width: 400px;
+  margin: 0 90px;
+}
+.talonSubmit:hover,
+.talonSubmit:active {
+  background-color: gainsboro;
+}
+select {
+  padding: 15px 15px 15px 30px;
+  margin: 0 0 10px 0;
+  width: 280px; /* 353 + 2 + 45 = 400 */
+  border: 1px solid #ccc;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+  -webkit-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+  box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+}
+.banner-text {
+  font-size: 48px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  margin: 0px 0 0 905px;
+}
+.subspan {
+  margin-left: 20px;
+}

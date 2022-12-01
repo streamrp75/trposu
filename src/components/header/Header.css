@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+
+.header__wrapper {
+  width: 1000px;
+  margin: 50px auto 0 auto;
+  font-family: "Poppins", Arial, sans-serif;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.header__contacts {
+  display: flex;
+}
+.head__header-text {
+  font-weight: 800;
+  font-size: 34px;
+  padding: 0;
+  line-height: 1;
+  color: #000000;
+  letter-spacing: 1px;
+  margin: 0;
+}
+.head__header-subtext {
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0;
+  color: grey !important;
+  letter-spacing: 1px;
+  line-height: 1;
+  color: #000000;
+  margin: 0;
+}
+.row1 {
+  margin: 0 !important;
+}
+.row4 {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  margin: 7px 0 0 0 !important;
+}
+p span {
+  font-weight: 600;
+  font-size: 14px;
+  color: black;
+}
+p span:first-child {
+  color: #46b7de;
+  margin-right: 5px;
+}
+.row2 {
+  font-weight: 400;
+  margin-top: 7px !important;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.row3 {
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0px !important;
+}
+
+.header__contacts-numbers {
+  display: flex;
+  flex-wrap: wrap;
+  width: 225px;
+  justify-content: end;
+}
+.logoTelegram {
+  width: 36px;
+  height: 36px;
+  margin-left: 20px;
+}
+.header__hours {
+  display: flex;
+}
+.header__hours-timetable {
+  margin-left: 20px;
+}
+hr {
+  margin-top: 40px;
+}
